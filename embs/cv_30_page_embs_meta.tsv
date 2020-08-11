@@ -1,0 +1,1042 @@
+item	type
+abbreviation	tag
+absolute-value	tag
+accuracy	tag
+adaboost	tag
+adam	tag
+aic	tag
+algorithms	tag
+ancova	tag
+anomaly-detection	tag
+anova	tag
+arima	tag
+artificial-intelligence	tag
+assumptions	tag
+auc	tag
+autocorrelation	tag
+autoencoders	tag
+backpropagation	tag
+bagging	tag
+bayes	tag
+bayes-factors	tag
+bayesian	tag
+bayesian-optimization	tag
+bernoulli-distribution	tag
+bernoulli-process	tag
+bessels-correction	tag
+beta-binomial	tag
+beta-distribution	tag
+bias	tag
+bias-variance-tradeoff	tag
+bic	tag
+binary-data	tag
+binning	tag
+binomial	tag
+bioinformatics	tag
+bivariate	tag
+boosting	tag
+bootstrap	tag
+canonical-correlation	tag
+canonical-question	tag
+careers	tag
+cart	tag
+categorical-data	tag
+categorical-encoding	tag
+cauchy	tag
+causality	tag
+censoring	tag
+centering	tag
+central-limit-theorem	tag
+change-scores	tag
+characteristic-function	tag
+checking	tag
+chemometrics	tag
+chi-squared	tag
+classification	tag
+clinical-trials	tag
+clustering	tag
+cohens-kappa	tag
+collecting-data	tag
+combining-p-values	tag
+communication	tag
+computational-statistics	tag
+computer-vision	tag
+computing	tag
+conditional-expectation	tag
+conditional-probability	tag
+confidence-interval	tag
+confounding	tag
+consistency	tag
+contingency-tables	tag
+continuous-data	tag
+contrasts	tag
+controlling-for-a-variable	tag
+conv-neural-network	tag
+convolution	tag
+copula	tag
+correlation	tag
+correlation-matrix	tag
+correspondence-analysis	tag
+cost-maximization	tag
+count-data	tag
+covariance	tag
+covariance-matrix	tag
+credible-interval	tag
+cross-correlation	tag
+cross-entropy	tag
+cross-validation	tag
+data-mining	tag
+data-preprocessing	tag
+data-transformation	tag
+data-visualization	tag
+dataset	tag
+decision-theory	tag
+deep-belief-networks	tag
+deep-learning	tag
+definition	tag
+degrees-of-freedom	tag
+dendrogram	tag
+derivative	tag
+descriptive-statistics	tag
+deviance	tag
+dimensionality-reduction	tag
+discrete-data	tag
+distance	tag
+distance-functions	tag
+distribution-identification	tag
+distributions	tag
+diversity	tag
+dropout	tag
+econometrics	tag
+eda	tag
+effect-size	tag
+efficiency	tag
+eigenvalues	tag
+elections	tag
+ensemble	tag
+entropy	tag
+epidemic-curve	tag
+epidemiology	tag
+error	tag
+error-message	tag
+estimation	tag
+estimators	tag
+euclidean	tag
+excel	tag
+expectation-maximization	tag
+expected-value	tag
+experiment-design	tag
+exponential	tag
+extreme-value	tag
+factor-analysis	tag
+factor-rotation	tag
+fallacy	tag
+feature-engineering	tag
+feature-selection	tag
+fiducial	tag
+fisher-information	tag
+fishers-exact	tag
+fixed-effects-model	tag
+forecastability	tag
+forecasting	tag
+frequency	tag
+frequentist	tag
+fused-lasso	tag
+gam	tag
+game-theory	tag
+games	tag
+gamma-distribution	tag
+gbm	tag
+gee	tag
+generalized-linear-model	tag
+generative-models	tag
+genetics	tag
+geometry	tag
+ggplot2	tag
+gibbs	tag
+goodness-of-fit	tag
+gradient-descent	tag
+graphical-model	tag
+hessian	tag
+heteroscedasticity	tag
+hidden-markov-model	tag
+hierarchical-bayesian	tag
+high-dimensional	tag
+histogram	tag
+history	tag
+humor	tag
+hyperparameter	tag
+hypothesis-testing	tag
+ica	tag
+iid	tag
+image-processing	tag
+independence	tag
+inference	tag
+information	tag
+information-theory	tag
+interaction	tag
+interactive-visualization	tag
+intercept	tag
+interpretation	tag
+intuition	tag
+jackknife	tag
+julia	tag
+k-means	tag
+k-nearest-neighbour	tag
+kaggle	tag
+kalman-filter	tag
+kendall-tau	tag
+keras	tag
+kernel-smoothing	tag
+kernel-trick	tag
+kolmogorov-axioms	tag
+kolmogorov-smirnov	tag
+kullback-leibler	tag
+large-data	tag
+lars	tag
+lasso	tag
+least-squares	tag
+libsvm	tag
+likelihood	tag
+likelihood-principle	tag
+likelihood-ratio	tag
+likert	tag
+linear-algebra	tag
+linear-model	tag
+link-function	tag
+lm	tag
+lme4-nlme	tag
+log-likelihood	tag
+logarithm	tag
+logistic	tag
+lognormal	tag
+loss-functions	tag
+machine-learning	tag
+mae	tag
+manipulation-detection	tag
+manova	tag
+many-categories	tag
+marginal	tag
+markov-process	tag
+mathematical-statistics	tag
+matrix	tag
+maximum	tag
+maximum-likelihood	tag
+mcmc	tag
+mean	tag
+measure-theory	tag
+measurement	tag
+median	tag
+method-of-moments	tag
+methodology	tag
+metric	tag
+microarray	tag
+misspecification	tag
+mixed-model	tag
+mixed-type-data	tag
+model	tag
+model-averaging	tag
+model-evaluation	tag
+model-selection	tag
+modeling	tag
+moments	tag
+moving-average	tag
+mse	tag
+multi-class	tag
+multicollinearity	tag
+multidimensional-scaling	tag
+multilabel	tag
+multilevel-analysis	tag
+multiple-comparisons	tag
+multiple-regression	tag
+multivariate-analysis	tag
+multivariate-regression	tag
+mutual-information	tag
+naive-bayes	tag
+natural-language	tag
+negative-binomial	tag
+nested-data	tag
+nested-models	tag
+neural-networks	tag
+neuroimaging	tag
+neuroscience	tag
+non-independent	tag
+nonlinear-regression	tag
+nonparametric	tag
+normal-distribution	tag
+normality-assumption	tag
+normalization	tag
+notation	tag
+observational-study	tag
+offset	tag
+online	tag
+open-source	tag
+optimization	tag
+ordinal-data	tag
+out-of-sample	tag
+outliers	tag
+overfitting	tag
+p-value	tag
+pac-learning	tag
+panel-data	tag
+paradox	tag
+parametric	tag
+particle-filter	tag
+pattern-recognition	tag
+pca	tag
+pcoa	tag
+pdf	tag
+pearson-r	tag
+percentage	tag
+permutation-test	tag
+phd	tag
+philosophical	tag
+plm	tag
+poisson-distribution	tag
+poisson-process	tag
+poisson-regression	tag
+politics	tag
+polynomial	tag
+pooling	tag
+population	tag
+post-hoc	tag
+posterior	tag
+power	tag
+power-analysis	tag
+precision	tag
+precision-recall	tag
+prediction	tag
+prediction-interval	tag
+predictive-models	tag
+predictor	tag
+prior	tag
+probability	tag
+probit	tag
+project-management	tag
+proof	tag
+proportion	tag
+psychology	tag
+python	tag
+qq-plot	tag
+quantiles	tag
+r	tag
+r-squared	tag
+random-effects-model	tag
+random-forest	tag
+random-generation	tag
+random-variable	tag
+rare-events	tag
+rating	tag
+rbm	tag
+real-time	tag
+referee	tag
+references	tag
+regression	tag
+regression-coefficients	tag
+regression-strategies	tag
+regularization	tag
+reinforcement-learning	tag
+reml	tag
+repeated-measures	tag
+replicability	tag
+reporting	tag
+reproducible-research	tag
+resampling	tag
+residuals	tag
+ridge-regression	tag
+risk	tag
+rms	tag
+rnn	tag
+robust	tag
+roc	tag
+rpart	tag
+rule-of-thumb	tag
+saddlepoint-approximation	tag
+sample	tag
+sample-size	tag
+sampling	tag
+sas	tag
+scales	tag
+scatterplot	tag
+scikit-learn	tag
+scoring-rules	tag
+seasonality	tag
+self-organizing-maps	tag
+self-study	tag
+sensitivity-specificity	tag
+separation	tag
+sequence-analysis	tag
+sgd	tag
+shrinkage	tag
+sigma-algebra	tag
+sigmoid-curve	tag
+simulation	tag
+singular	tag
+small-sample	tag
+smoothing	tag
+social-network	tag
+softmax	tag
+software	tag
+sparse	tag
+spatial	tag
+spatio-temporal	tag
+spearman-rho	tag
+splines	tag
+spss	tag
+stacking	tag
+standard-deviation	tag
+standard-error	tag
+standardization	tag
+stata	tag
+stationarity	tag
+statistical-learning	tag
+statistical-significance	tag
+statistics-in-media	tag
+steins-phenomenon	tag
+stepwise-regression	tag
+stochastic-processes	tag
+stratification	tag
+sums-of-squares	tag
+supervised-learning	tag
+suppressor	tag
+survival	tag
+svd	tag
+svm	tag
+t-test	tag
+tables	tag
+targeted-maximum-likelihood	tag
+teaching	tag
+tensor	tag
+tensorflow	tag
+terminology	tag
+text-mining	tag
+theory	tag
+threshold	tag
+time-series	tag
+topologies	tag
+train	tag
+tsne	tag
+type-i-and-ii-errors	tag
+types-of-averages	tag
+unbalanced-classes	tag
+unbiased-estimator	tag
+uncertainty	tag
+uniform	tag
+uninformative-prior	tag
+unit-root	tag
+unsupervised-learning	tag
+validation	tag
+var	tag
+variance	tag
+variance-stabilizing	tag
+variational-bayes	tag
+vif	tag
+voting-system	tag
+web	tag
+weighted-regression	tag
+wilcoxon-mann-whitney	tag
+word-embeddings	tag
+xgboost	tag
+z-statistic	tag
+z-test	tag
+zero-inflation	tag
+Making sense of principal component analysis, eigenvectors &amp; eigenvalues	question
+How to choose the number of hidden layers and nodes in a feedforward neural network?	question
+What is the difference between &quot;likelihood&quot; and &quot;probability&quot;?	question
+What is the intuition behind beta distribution?	question
+What is the difference between test set and validation set?	question
+Why square the difference instead of taking the absolute value in standard deviation?	question
+The Two Cultures: statistics vs. machine learning?	question
+Relationship between SVD and PCA. How to use SVD to perform PCA?	question
+How to understand the drawbacks of K-means	question
+Bayesian and frequentist reasoning in plain English	question
+Python as a statistics workbench	question
+What is your favorite &quot;data analysis&quot; cartoon?	question
+Explaining to laypeople why bootstrapping works 	question
+Difference between logit and probit models	question
+Is normality testing &#39;essentially useless&#39;?	question
+When conducting multiple regression, when should you center your predictor variables &amp; when should you standardize them?	question
+What happens if the explanatory and response variables are sorted independently before regression?	question
+What is the difference between fixed effect, random effect and mixed effect models?	question
+How to normalize data to 0-1 range?	question
+How to understand degrees of freedom?	question
+Why is Euclidean distance not a good metric in high dimensions?	question
+Tradeoff batch size vs. number of iterations to train a neural network	question
+What is the meaning of p values and t values in statistical tests?	question
+Famous statistical quotations	question
+What&#39;s the difference between a confidence interval and a credible interval?	question
+Interpretation of R&#39;s lm() output	question
+Bagging, boosting and stacking in machine learning	question
+What does AUC stand for and what is it?	question
+How would you explain Markov Chain Monte Carlo (MCMC) to a layperson?	question
+Is $R^2$ useful or dangerous?	question
+Why does a 95% Confidence Interval (CI) not imply a 95% chance of containing the mean?	question
+What are common statistical sins?	question
+Is there any reason to prefer the AIC or BIC over the other?	question
+How would you explain covariance to someone who understands only the mean?	question
+How to know that your machine learning problem is hopeless?	question
+What are the differences between Factor Analysis and Principal Component Analysis?	question
+What is the difference between data mining, statistics, machine learning and AI?	question
+What is batch size in neural network?	question
+What is the best introductory Bayesian statistics textbook?	question
+Algorithms for automatic model selection	question
+Which &quot;mean&quot; to use and when?	question
+How should I transform non-negative data including zeros?	question
+When (and why) should you take the log of a distribution (of numbers)?	question
+What does the hidden layer in a neural network compute?	question
+What should I do when my neural network doesn&#39;t learn?	question
+ROC vs precision-and-recall curves	question
+How to choose a predictive model after k-fold cross-validation?	question
+How to interpret a QQ plot	question
+What is a data scientist?	question
+How to summarize data by group in R?	question
+When should I use lasso vs ridge?	question
+How do I get the number of rows of a data.frame in R?	question
+How to deal with perfect separation in logistic regression?	question
+Why the sudden fascination with tensors?	question
+In linear regression, when is it appropriate to use the log of an independent variable instead of the actual values?	question
+R&#39;s lmer cheat sheet	question
+Can principal component analysis be applied to datasets containing a mix of continuous and categorical variables?	question
+Statistics Jokes	question
+PCA on correlation or covariance?	question
+Generative vs. discriminative	question
+How exactly does one “control for other variables”?	question
+Does Julia have any hope of sticking in the statistical community?	question
+What intuitive explanation is there for the central limit theorem?	question
+Why is Newton&#39;s method not widely used in machine learning?	question
+What are the advantages of ReLU over sigmoid function in deep neural networks?	question
+Intuitive explanation for dividing by $n-1$ when calculating standard deviation?	question
+Training on the full dataset after cross-validation?	question
+Can a probability distribution value exceeding 1 be OK?	question
+Choice of K in K-fold cross-validation	question
+A list of cost functions used in neural networks, alongside applications	question
+What is the influence of C in SVMs with linear kernel?	question
+What&#39;s the difference between variance and standard deviation?	question
+How to determine which distribution fits my data best?	question
+R vs SAS, why is SAS preferred by private companies?	question
+Cohen&#39;s kappa in plain English	question
+Why do we need sigma-algebras to define probability spaces?	question
+Are large data sets inappropriate for hypothesis testing?	question
+What&#39;s the difference between principal component analysis and multidimensional scaling?	question
+What is the difference between a consistent estimator and an unbiased estimator?	question
+Amazon interview question—probability of 2nd interview	question
+The Sleeping Beauty Paradox	question
+What&#39;s the difference between Normalization and Standardization?	question
+Bottom to top explanation of the Mahalanobis distance?	question
+Is Facebook coming to an end?	question
+Obtaining knowledge from a random forest	question
+What is the difference between a neural network and a deep neural network, and why do the deep ones work better?	question
+Why is accuracy not the best measure for assessing classification models?	question
+How to choose between Pearson and Spearman correlation?	question
+Help me understand Bayesian prior and posterior distributions	question
+When is it ok to remove the intercept in a linear regression model?	question
+Does causation imply correlation?	question
+Correlations with unordered categorical variables	question
+Gradient Boosting Tree vs Random Forest	question
+What does 1x1 convolution mean in a neural network?	question
+How to reverse PCA and reconstruct original variables from several principal components?	question
+Deriving the conditional distributions of a multivariate normal distribution	question
+How are the standard errors of coefficients calculated in a regression?	question
+How to intuitively explain what a kernel is?	question
+What is the difference between linear regression and logistic regression?	question
+What&#39;s the difference between probability and statistics?	question
+Pearson&#39;s or Spearman&#39;s correlation with non-normal data	question
+Why are p-values uniformly distributed under the null hypothesis?	question
+What is the difference between convolutional neural networks, restricted Boltzmann machines, and auto-encoders?	question
+Batch gradient descent versus stochastic gradient descent	question
+Free statistical textbooks	question
+Numerical example to understand Expectation-Maximization	question
+At each step of a limiting infinite process, put 10 balls in an urn and remove one at random. How many balls are left?	question
+Why does the Cauchy distribution have no mean?	question
+Should one remove highly correlated variables before doing PCA?	question
+What if residuals are normally distributed, but y is not?	question
+How would you explain the difference between correlation and covariance?	question
+Most interesting statistical paradoxes	question
+What&#39;s wrong with XKCD&#39;s Frequentists vs. Bayesians comic?	question
+What is the .632+ rule in bootstrapping?	question
+Differences between cross validation and bootstrapping to estimate the prediction error	question
+Is there an intuitive interpretation of $A^TA$ for a data matrix $A$?	question
+How does a Support Vector Machine (SVM) work?	question
+If 900 out of 1000 people say a car is blue, what is the probability that it is blue?	question
+Assessing approximate distribution of data based on a histogram	question
+How does Keras &#39;Embedding&#39; layer work?	question
+Books for self-studying time series analysis?	question
+Removal of statistically significant intercept term increases $R^2$ in linear model	question
+Why L1 norm for sparse models	question
+Nested cross validation for model selection	question
+What&#39;s a real-world example of &quot;overfitting&quot;?	question
+Why normalize images by subtracting dataset&#39;s image mean, instead of the current image mean in deep learning?	question
+What is the difference between linear regression on y with x and x with y?	question
+ASA discusses limitations of $p$-values - what are the alternatives?	question
+Detecting a given face in a database of facial images	question
+What skills are required to perform large scale statistical analyses?	question
+What misused statistical terms are worth correcting?	question
+Difference between neural net weight decay and learning rate	question
+Objective function, cost function, loss function: are they the same thing?	question
+Why does a time series have to be stationary?	question
+US Election results 2016: What went wrong with prediction models?	question
+When is R squared negative?	question
+How to choose between t-test or non-parametric test e.g. Wilcoxon in small samples	question
+Crossed vs nested random effects: how do they differ and how are they specified correctly in lme4?	question
+Intuitive explanation of unit root	question
+What is the difference between off-policy and on-policy learning?	question
+How to annoy a statistical referee?	question
+Is it possible to train a neural network without backpropagation?	question
+Conditional inference trees vs traditional decision trees	question
+What is covariance in plain language?	question
+When to use gamma GLMs?	question
+Comprehensive list of activation functions in neural networks with pros/cons	question
+Percentile vs quantile vs quartile	question
+When should linear regression be called &quot;machine learning&quot;?	question
+Locating freely available data samples	question
+What&#39;s the difference between correlation and simple linear regression?	question
+How to select kernel for SVM?	question
+Difference between standard error and standard deviation	question
+What is an embedding layer in a neural network?	question
+PCA and proportion of variance explained	question
+KL divergence between two univariate Gaussians	question
+Interpreting plot.lm()	question
+&quot;Best&quot; series of colors to use for differentiating series in publication-quality plots	question
+Is this really how p-values work? Can a million research papers per year be based on pure randomness?	question
+Explain &quot;Curse of dimensionality&quot; to a child	question
+Is it possible to have a pair of Gaussian random variables for which the joint distribution is not Gaussian?	question
+How do you calculate precision and recall for multiclass classification using confusion matrix?	question
+Maximum Likelihood Estimation (MLE) in layman terms	question
+What book would you recommend for non-statistician scientists?	question
+Calculating optimal number of bins in a histogram	question
+Including the interaction but not the main effects in a model	question
+What are the main differences between K-means and K-nearest neighbours?	question
+Bias and variance in leave-one-out vs K-fold cross validation	question
+Clustering on the output of t-SNE	question
+What is the best way to identify outliers in multivariate data?	question
+Why is ANOVA taught / used as if it is a different research methodology compared to linear regression?	question
+Can someone explain Gibbs sampling in very simple words?	question
+Difference between confidence intervals and prediction intervals	question
+What does a &quot;closed-form solution&quot; mean?	question
+How scared should we be about convergence warnings in lme4	question
+Why are neural networks becoming deeper, but not wider?	question
+Under what conditions does correlation imply causation?	question
+Simple algorithm for online outlier detection of a generic time series	question
+Is there a way to remember the definitions of Type I and Type II Errors?	question
+Essential data checking tests	question
+Diagnostic plots for count regression	question
+What is the difference between zero-inflated and hurdle models?	question
+Who Are The Bayesians?	question
+How much do we know about p-hacking &quot;in the wild&quot;?	question
+Is there an intuitive explanation why multicollinearity is a problem in linear regression?	question
+What is rank deficiency, and how to deal with it?	question
+How to calculate Area Under the Curve (AUC), or the c-statistic, by hand	question
+How to choose nlme or lme4 R library for mixed effects models?	question
+Does an unbalanced sample matter when doing logistic regression?	question
+What are examples where a &quot;naive bootstrap&quot; fails?	question
+tanh activation function vs sigmoid activation function	question
+How to efficiently manage a statistical analysis project?	question
+What, precisely, is a confidence interval?	question
+T-test for non normal when N&gt;50?	question
+If mean is so sensitive, why use it in the first place?	question
+What is the benefit of breaking up a continuous predictor variable?	question
+If I have a 58% chance of winning a point, what&#39;s the chance of me winning a ping pong game to 21, win by 2?	question
+Given the power of computers these days, is there ever a reason to do a chi-squared test rather than Fisher&#39;s exact test?	question
+Why does the Lasso provide Variable Selection?	question
+When to use regularization methods for regression?	question
+How to apply Neural Network to time series forecasting?	question
+Understanding &quot;variance&quot; intuitively	question
+Why use gradient descent for linear regression, when a closed-form math solution is available?	question
+Rules of thumb for &quot;modern&quot; statistics	question
+What is the lasso in regression analysis?	question
+The Book of Why by Judea Pearl: Why is he bashing statistics?	question
+How to tell if data is &quot;clustered&quot; enough for clustering algorithms to produce meaningful results?	question
+Feature selection and cross-validation	question
+Correlation between a nominal (IV) and a continuous (DV) variable	question
+Relationship between poisson and exponential distribution	question
+Are there any examples where Bayesian credible intervals are obviously inferior to frequentist confidence intervals	question
+Generate a random variable with a defined correlation to an existing variable(s)	question
+How to produce a pretty plot of the results of k-means cluster analysis?	question
+Is there a minimum sample size required for the t-test to be valid?	question
+An example: LASSO regression using glmnet for binary outcome	question
+Why isn&#39;t Logistic Regression called Logistic Classification?	question
+Line of best fit does not look like a good fit. Why?	question
+Why haven&#39;t robust (and resistant) statistics replaced classical techniques?	question
+What are modern, easily used alternatives to stepwise regression?	question
+Using k-fold cross-validation for time-series model selection	question
+Euclidean distance is usually not good for sparse data (and more general case)?	question
+Regarding p-values, why 1% and 5%? Why not 6% or 10%?	question
+What is the role of the logarithm in Shannon&#39;s entropy?	question
+Where should I place dropout layers in a neural network?	question
+Feature selection for &quot;final&quot; model when performing cross-validation in machine learning	question
+How can a regression be significant yet all predictors be non-significant?	question
+Solving for regression parameters in closed-form vs gradient descent	question
+Resampling / simulation methods: monte carlo, bootstrapping, jackknifing, cross-validation, randomization tests, and permutation tests	question
+XKCD&#39;s modified Bayes theorem: actually kinda reasonable?	question
+How should outliers be dealt with in linear regression analysis?	question
+What are principal component scores?	question
+What is the single most influential book every statistician should read?	question
+Cross-Validation in plain english?	question
+Kendall Tau or Spearman&#39;s rho?	question
+What is an &quot;uninformative prior&quot;? Can we ever have one with truly no information?	question
+Why do we need to normalize data before principal component analysis (PCA)?	question
+Probability of a single real-life future event: What does it mean when they say that &quot;Hillary has a 75% chance of winning&quot;?	question
+What is meant by a &quot;random variable&quot;?	question
+What are the &#39;big problems&#39; in statistics?	question
+Help me understand Support Vector Machines	question
+Mathematician wants the equivalent knowledge to a quality stats degree	question
+Does the variance of a sum equal the sum of the variances?	question
+What is the meaning of &quot;All models are wrong, but some are useful&quot;	question
+Loadings vs eigenvectors in PCA: when to use one or another?	question
+Validation Error less than training error?	question
+Softmax vs Sigmoid function in Logistic classifier?	question
+Is there a name for the phenomenon of false positives counterintuitively outstripping true positives	question
+Examples for teaching: Correlation does not mean causation	question
+Free resources for learning R	question
+Why is it possible to get significant F statistic (p&lt;.001) but non-significant regressor t-tests?	question
+How to compute precision/recall for multiclass-multilabel classification?	question
+What is &quot;restricted maximum likelihood&quot; and when should it be used?	question
+Why is ridge regression called &quot;ridge&quot;, why is it needed, and what happens when $\lambda$ goes to infinity?	question
+What loss function for multi-class, multi-label classification tasks in neural networks?	question
+Best way to present a random forest in a publication?	question
+What is a &quot;kernel&quot; in plain English?	question
+Choosing a clustering method	question
+What is regularization in plain english?	question
+When to use an offset in a Poisson regression?	question
+What is a complete list of the usual assumptions for linear regression? 	question
+When to use Fisher and Neyman-Pearson framework?	question
+How does the correlation coefficient differ from regression slope?	question
+What do you call an average that does not include outliers?	question
+How to plot ROC curves in multiclass classification?	question
+How to &#39;sum&#39; a standard deviation?	question
+Please explain the waiting paradox	question
+Principled way of collapsing categorical variables with many levels?	question
+When (if ever) is a frequentist approach substantively better than a Bayesian?	question
+Calculating the parameters of a Beta distribution using the mean and variance	question
+Skills hard to find in machine learners?	question
+Is it necessary to scale the target value in addition to scaling features for regression analysis?	question
+Can bootstrap be seen as a &quot;cure&quot; for the small sample size?	question
+Why to optimize max log probability instead of probability	question
+What is wrong with extrapolation?	question
+Why should I be Bayesian when my model is wrong?	question
+How does a simple logistic regression model achieve a 92% classification accuracy on MNIST?	question
+Convergence in probability vs. almost sure convergence	question
+Rules of thumb for minimum sample size for multiple regression	question
+What are the major philosophical, methodological, and terminological differences between econometrics and other statistical fields?	question
+What is the difference between R functions prcomp and princomp?	question
+Having a job in data-mining without a PhD	question
+Model for predicting number of Youtube views of Gangnam Style	question
+Diagnostics for logistic regression?	question
+How to visualize what canonical correlation analysis does (in comparison to what principal component analysis does)?	question
+Is there any good reason to use PCA instead of EFA? Also, can PCA be a substitute for factor analysis?	question
+What algorithm should I use to detect anomalies on time-series?	question
+What is the relation between k-means clustering and PCA?	question
+Famous statistical wins and horror stories for teaching purposes	question
+What is the difference between discrete data and continuous data?	question
+Good GUI for R suitable for a beginner wanting to learn  programming in R?	question
+How to split the dataset for cross validation, learning curve, and final evaluation?	question
+A psychology journal banned p-values and confidence intervals; is it indeed wise to stop using them?	question
+What are some of the most common misconceptions about linear regression?	question
+Does no correlation imply no causality?	question
+Do not vote, one vote will not reverse election results. What is wrong with this reasoning?	question
+Complete substantive examples of reproducible research using R	question
+Explain the difference between multiple regression and multivariate regression, with minimal use of symbols/math	question
+Do all interactions terms need their individual terms in regression model?	question
+Why does k-means clustering algorithm use only Euclidean distance metric?	question
+How exactly did statisticians agree to using (n-1) as the unbiased estimator for population variance without simulation?	question
+Why do neural network researchers care about epochs?	question
+Practical thoughts on explanatory vs. predictive modeling	question
+Removing duplicated rows data frame in R	question
+How to generate uniformly distributed points on the surface of the 3-d unit sphere?	question
+Multivariate multiple regression in R	question
+What&#39;s so &#39;moment&#39; about &#39;moments&#39; of a probability distribution?	question
+What are good initial weights in a neural network?	question
+Subscript notation in expectations	question
+Shape of confidence interval for predicted values in linear regression	question
+What makes the Gaussian kernel so magical for PCA, and also in general?	question
+Variable selection for predictive modeling really needed in 2016?	question
+What are some valuable Statistical Analysis open source projects?	question
+How to interpret an inverse covariance or precision matrix?	question
+How to interpret coefficients in a Poisson regression?	question
+What correlation makes a matrix singular and what are implications of singularity or near-singularity?	question
+How to tune hyperparameters of xgboost trees?	question
+How does the reparameterization trick for VAEs work and why is it important?	question
+Is this the solution to the p-value problem?	question
+Is there any *mathematical* basis for the Bayesian vs frequentist debate?	question
+What is the relationship between independent component analysis and factor analysis?	question
+Understanding stratified cross-validation	question
+Unified view on shrinkage: what is the relation (if any) between Stein&#39;s paradox, ridge regression, and random effects in mixed models?	question
+When is unbalanced data really a problem in Machine Learning?	question
+What are good basic statistics to use for ordinal data?	question
+Where to cut a dendrogram?	question
+Look and you shall find (a correlation)	question
+Proper way of using recurrent neural network for time series analysis	question
+Why does including latitude and longitude in a GAM account for spatial autocorrelation?	question
+What is the difference between a &quot;link function&quot; and a &quot;canonical link function&quot; for GLM	question
+How and why do normalization and feature scaling work?	question
+What is the difference between a neural network and a deep belief network?	question
+Practical questions on tuning Random Forests	question
+How should tiny $p$-values be reported? (and why does R put a minimum on 2.22e-16?)	question
+Bayes regression: how is it done in comparison to standard regression?	question
+What are disadvantages of using the lasso for variable selection for regression?	question
+How to obtain the p-value (check significance) of an effect in a lme4 mixed model?	question
+How can adding a 2nd IV make the 1st IV significant?	question
+Taleb and the Black Swan	question
+Mean absolute error OR root mean squared error?	question
+What is a &quot;saturated&quot; model?	question
+What do the residuals in a logistic regression mean?	question
+Statistics interview questions	question
+When to use generalized estimating equations vs. mixed effects models?	question
+Is the R language reliable for the field of economics?	question
+Likelihood ratio vs Bayes Factor	question
+What is the reason that a likelihood function is not a pdf?	question
+How to actually plot a sample tree from randomForest::getTree()?	question
+Understanding ROC curve	question
+What is the difference between ZCA whitening and PCA whitening?	question
+Why is the L2 regularization equivalent to Gaussian prior?	question
+How much to pay? A practical problem	question
+What is a good, convincing example in which p-values are useful?	question
+What&#39;s the difference between feed-forward and recurrent neural networks?	question
+Regression with multiple dependent variables?	question
+Assumptions regarding bootstrap estimates of uncertainty	question
+What is the difference between Multiclass and Multilabel Problem	question
+What problem do shrinkage methods solve?	question
+Where did the frequentist-Bayesian debate go?	question
+When are Log scales appropriate?	question
+Why is the Jeffreys prior useful?	question
+What&#39;re the differences between PCA and autoencoder?	question
+40,000 neuroscience papers might be wrong	question
+What is global max pooling layer and what is its advantage over maxpooling layer?	question
+Is this chart showing the likelihood of a terrorist attack statistically useful?	question
+Why do neural networks need so many training examples to perform?	question
+How is the minimum of a set of IID random variables distributed?	question
+Is PCA followed by a rotation (such as varimax) still PCA?	question
+If A and B are correlated with C, why are A and B not necessarily correlated?	question
+References containing arguments against null hypothesis significance testing?	question
+Intuitive explanation of Fisher Information and Cramer-Rao bound	question
+What is an intuitive explanation for how PCA turns from a geometric problem (with distances) to a linear algebra problem (with eigenvectors)?	question
+What is the difference between a &quot;nested&quot; and a &quot;non-nested&quot; model?	question
+How to visualize what ANOVA does?	question
+Why only three partitions? (training, validation, test)	question
+How can I help ensure testing data does not leak into training data?	question
+List of situations where a Bayesian approach is simpler, more practical, or more convenient	question
+What are good RMSE values?	question
+Mutual information versus correlation	question
+Standard errors for lasso prediction using R	question
+Why does collecting data until finding a significant result increase Type I error rate?	question
+What does orthogonal mean in the context of statistics?	question
+Does it make sense to add a quadratic term but not the linear term to a model?	question
+How to simulate data that satisfy specific constraints such as having specific mean and standard deviation?	question
+Bayesians: slaves of the likelihood function?	question
+Why does ridge estimate become better than OLS by adding a constant to the diagonal?	question
+Why would parametric statistics ever be preferred over nonparametric?	question
+What is the intuition behind SVD?	question
+Optimization when Cost Function Slow to Evaluate	question
+On the importance of the i.i.d. assumption in statistical learning	question
+Covariance and independence?	question
+Using principal component analysis (PCA) for feature selection	question
+Explain the xkcd jelly bean comic: What makes it funny?	question
+Who created the first standard normal table?	question
+What does &quot;Scientists rise up against statistical significance&quot; mean? (Comment in Nature)	question
+What is the difference between a partial likelihood, profile likelihood and marginal likelihood?	question
+Which pseudo-$R^2$ measure is the one to report for logistic regression (Cox &amp; Snell or Nagelkerke)?	question
+Why is sample standard deviation a biased estimator of $\sigma$?	question
+What method can be used to detect seasonality in data?	question
+Why not approach classification through regression?	question
+Basic question about Fisher Information matrix and relationship to Hessian and standard errors	question
+Hold-out validation vs. cross-validation	question
+A more definitive discussion of variable selection	question
+If we fail to reject the null hypothesis in a large study, isn&#39;t it evidence for the null?	question
+Brain teaser: How to generate 7 integers with equal probability using a biased coin that has a pr(head) = p?	question
+How can I change the title of a legend in ggplot2?	question
+Do we need a global test before post hoc tests?	question
+Variables are often adjusted (e.g. standardised) before making a model - when is this a good idea, and when is it a bad one?	question
+Why is the square root transformation recommended for count data?	question
+Does 10 heads in a row increase the chance of the next toss being a tail?	question
+What&#39;s the difference between momentum based gradient descent and Nesterov&#39;s accelerated gradient descent?	question
+Reduce Classification Probability Threshold	question
+Two-tailed tests... I&#39;m just not convinced. What&#39;s the point?	question
+What is the most surprising characterization of the Gaussian (normal) distribution?	question
+Efficient online linear regression	question
+What are i.i.d. random variables?	question
+Machine learning cookbook / reference card / cheatsheet?	question
+Derivation of closed form lasso solution	question
+Criticism of Pearl&#39;s theory of causality	question
+How small a quantity should be added to x to avoid taking the log of zero?	question
+How to generate correlated random numbers (given means, variances and degree of correlation)?	question
+Choosing between LM and GLM for a log-transformed response variable	question
+Do the predictions of a Random Forest model have a prediction interval?	question
+Performance metrics to evaluate unsupervised learning	question
+Interpreting Residual and Null Deviance in GLM R	question
+Why does shrinkage work?	question
+One-hot vs dummy encoding in Scikit-learn	question
+Introduction to statistics for mathematicians	question
+Does it ever make sense to treat categorical data as continuous?	question
+Alternatives to logistic regression in R	question
+Statistics and causal inference?	question
+Resources for learning Markov chain and hidden Markov models	question
+Which permutation test implementation in R to use instead of t-tests (paired and non-paired)?	question
+Why bother with the dual problem when fitting SVM?	question
+Neural networks vs support vector machines: are the second definitely superior?	question
+Advanced statistics books recommendation	question
+Are all values within a 95% confidence interval equally likely?	question
+Central limit theorem for sample medians	question
+Logistic regression in R resulted in perfect separation (Hauck-Donner phenomenon). Now what?	question
+Examples where method of moments can beat maximum likelihood in small samples?	question
+Is the &quot;hybrid&quot; between Fisher and Neyman-Pearson approaches to statistical testing really an &quot;incoherent mishmash&quot;?	question
+How can an artificial neural network ANN, be used for unsupervised clustering?	question
+Industry vs Kaggle challenges. Is collecting more observations and having access to more variables more important than fancy modelling?	question
+A chart of daily cases of COVID-19 in a Russian region looks suspiciously level to me - is this so from the statistics viewpoint?	question
+What are the worst (commonly adopted) ideas/principles in statistics?	question
+What is the relationship between a chi squared test and test of equal proportions?	question
+What are the breakthroughs in Statistics of the past 15 years?	question
+Why continue to teach and use hypothesis testing (when confidence intervals are available)?	question
+Software needed to scrape data from graph	question
+Is chi-squared always a one-sided test?	question
+What is so cool about de Finetti&#39;s representation theorem?	question
+Box-Cox like transformation for independent variables?	question
+R libraries for deep learning	question
+Real-life examples of moving average processes	question
+Wald test for logistic regression	question
+KL divergence between two multivariate Gaussians	question
+Perform feature normalization before or within model validation?	question
+Are we exaggerating importance of model assumption and evaluation in an era when analyses are often carried out by laymen	question
+Why is ANOVA equivalent to linear regression?	question
+What are some examples of anachronistic practices in statistics?	question
+Binary classification with strongly unbalanced classes	question
+How exactly does a &quot;random effects model&quot; in econometrics relate to mixed models outside of econometrics?	question
+How do R and Python complement each other in data science?	question
+Why is the regularization term *added* to the cost function (instead of multiplied etc.)?	question
+Is it wrong to rephrase &quot;1 in 80 deaths is caused by a car accident&quot; as &quot;1 in 80 people die as a result of a car accident?&quot;	question
+Mathematical Statistics Videos	question
+Clustering with a distance matrix	question
+Most famous statisticians	question
+Measuring entropy/ information/ patterns of a 2d binary matrix	question
+Reference book for linear algebra applied to statistics?	question
+How to decide on the correct number of clusters?	question
+How to determine best cutoff point and its confidence interval using ROC curve in R?	question
+Questions about how random effects are specified in lmer	question
+Examples of Bayesian and frequentist approach giving different answers	question
+Is every covariance matrix positive definite?	question
+What does the inverse of covariance matrix say about data? (Intuitively)	question
+Why is logistic regression a linear classifier?	question
+What is the best way to remember the difference between sensitivity, specificity, precision, accuracy, and recall?	question
+Why do we minimize the negative likelihood if it is equivalent to maximization of the likelihood?	question
+How to apply standardization/normalization to train- and testset if prediction is the goal?	question
+Adam optimizer with exponential decay	question
+Who are frequentists?	question
+Why is it that natural log changes are percentage changes? What is about logs that makes this so?	question
+Is ridge regression useless in high dimensions ($n \ll p$)? How can OLS fail to overfit?	question
+Interview question: If correlation doesn&#39;t imply causation, how do you detect causation?	question
+Standard deviation of standard deviation	question
+Period detection of a generic time series	question
+Best PCA algorithm for huge number of features (&gt;10K)?	question
+Is adjusting p-values in a multiple regression for multiple comparisons a good idea?	question
+Best practice when analysing pre-post treatment-control designs	question
+ANOVA assumption normality/normal distribution of residuals	question
+What is the difference between N and N-1 in calculating population variance?	question
+Bootstrap vs. jackknife	question
+How should one interpret the comparison of means from different sample sizes?	question
+Is sampling relevant in the time of &#39;big data&#39;?	question
+Multivariate linear regression vs neural network?	question
+What does having &quot;constant variance&quot; in a linear regression model mean?	question
+Using deep learning for time series prediction	question
+What is the difference in Bayesian estimate and maximum likelihood estimate?	question
+Clustering with K-Means and EM: how are they related?	question
+Is there a difference between &#39;controlling for&#39; and &#39;ignoring&#39; other variables in multiple regression?	question
+What is the effect of having correlated predictors in a multiple regression model?	question
+What are alternatives of Gradient Descent?	question
+How to use Pearson correlation correctly with time series	question
+Maximum likelihood method vs. least squares method	question
+Intuition on the Kullback-Leibler (KL) Divergence	question
+How is it possible that validation loss is increasing while validation accuracy is increasing as well	question
+Under what conditions should Likert scales be used as ordinal or interval data?	question
+Machine Learning using Python	question
+Data APIs/feeds available as packages in R	question
+How to interpret type I, type II, and type III ANOVA and MANOVA?	question
+Modern successor to Exploratory Data Analysis by Tukey?	question
+Does the optimal number of trees in a random forest depend on the number of predictors?	question
+How are regression, the t-test, and the ANOVA all versions of the general linear model?	question
+How do I test that two continuous variables are independent?	question
+Is random forest a boosting algorithm?	question
+What are disadvantages of state-space models and Kalman Filter for time-series modelling?	question
+Why do we care so much about normally distributed error terms (and homoskedasticity) in linear regression when we don&#39;t have to?	question
+Visually interesting statistics concepts that are easy to explain	question
+Correct spelling (capitalization, italicization, hyphenation) of &quot;p-value&quot;?	question
+Excel as a statistics workbench	question
+What is the difference between NaN and NA?	question
+How to identify a bimodal distribution?	question
+Do we have a problem of &quot;pity upvotes&quot;?	question
+What is the difference between estimation and prediction?	question
+Effect of switching response and explanatory variable in simple linear regression	question
+What is a difference between random effects-, fixed effects- and marginal model?	question
+Obtaining predicted values (Y=1 or 0) from a logistic regression model fit	question
+Manually Calculating P value from t-value in t-test	question
+Linear model with log-transformed response vs. generalized linear model with log link	question
+How to interpret F-measure values?	question
+What is a contrast matrix?	question
+Warning in R - Chi-squared approximation may be incorrect	question
+Testing equality of coefficients from two different regressions	question
+How to tell the probability of failure if there were no failures?	question
+Recurrent vs Recursive Neural Networks: Which is better for NLP?	question
+Can a random forest be used for feature selection in multiple linear regression?	question
+Understanding the role of the discount factor in reinforcement learning	question
+Cumming (2008) claims that distribution of p-values obtained in replications depends only on the original p-value. How can it be true?	question
+Recommended books on experiment design?	question
+What is the difference between a particle filter (sequential Monte Carlo) and a Kalman filter?	question
+What is a good resource on table design?	question
+Intuitive explanation of the bias-variance tradeoff?	question
+How to calculate pseudo-$R^2$ from R&#39;s logistic regression?	question
+Software for drawing bayesian networks (graphical models)	question
+How do you calculate the probability density function of the maximum of a sample of IID uniform random variables?	question
+Book for reading before Elements of Statistical Learning?	question
+What book is recommendable to start learning statistics using R at the same time?	question
+Why is expectation the same as the arithmetic mean?	question
+Random forest computing time in R	question
+Does anyone know any good open source software for visualizing data from database?	question
+Variance of product of multiple random variables	question
+Graph for relationship between two ordinal variables	question
+What is the intuition behind conditional Gaussian distributions?	question
+Is it important to scale data before clustering?	question
+How large should the batch size be for stochastic gradient descent?	question
+Difference between &quot;kernel&quot; and &quot;filter&quot; in CNN	question
+Intuitive explanations of differences between Gradient Boosting Trees (GBM) &amp; Adaboost	question
+Which activation function for output layer?	question
+Famous easy to understand examples of a confounding variable invalidating a study	question
+Is the COVID-19 pandemic curve a Gaussian curve?	question
+What is a good algorithm for estimating the median of a huge read-once data set?	question
+If the t-test and the ANOVA for two groups are equivalent, why aren&#39;t their assumptions equivalent?	question
+Is it possible to do time-series clustering based on curve shape?	question
+What is the objective function of PCA?	question
+How are we defining &#39;reproducible research&#39;?	question
+Interpretation of log transformed predictor and/or response	question
+Understanding Naive Bayes	question
+Regression when the OLS residuals are not normally distributed	question
+Normalization vs. scaling	question
+Fast linear regression robust to outliers	question
+Why does the correlation coefficient between X and X-Y random variables tend to be 0.7	question
+Why is a Bayesian not allowed to look at the residuals?	question
+A generalization of the Law of Iterated Expectations	question
+Why is multicollinearity not checked in modern statistics/machine learning	question
+What is translation invariance in computer vision and convolutional neural network?	question
+Statistical tests when sample size is 1	question
+Statistical inference when the sample &quot;is&quot; the population	question
+How to perform a test using R to see if data follows normal distribution	question
+Confidence interval for Bernoulli sampling	question
+What is Deviance? (specifically in CART/rpart)	question
+How to do logistic regression subset selection?	question
+Intuition behind why Stein&#39;s paradox only applies in dimensions $\ge 3$	question
+How to statistically compare two time series?	question
+Most confusing statistical terms	question
+Standard error for the mean of a sample of binomial random variables	question
+Is Amazon&#39;s &quot;average rating&quot; misleading?	question
+Are splines overfitting the data?	question
+R - QQPlot: how to see whether data are normally distributed	question
+Linear kernel and non-linear kernel for support vector machine?	question
+When combining p-values, why not just averaging?	question
+Comparing SVM and logistic regression	question
+Interpreting QQplot - Is there any rule of thumb to decide for non-normality?	question
+Are all models useless? Is any exact model possible -- or useful?	question
+Practical hyperparameter optimization: Random vs. grid search	question
+Why do Convolutional Neural Networks not use a Support Vector Machine to classify?	question
+Difference between Random Forest and Extremely Randomized Trees	question
+Difference between GradientDescentOptimizer and AdamOptimizer (TensorFlow)?	question
+Is it a good practice to always scale/normalize data for machine learning?	question
+Backpropagation with Softmax / Cross Entropy	question
+What are the main theorems in Machine (Deep) Learning?	question
+What is your favorite data visualization blog?	question

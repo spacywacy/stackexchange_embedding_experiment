@@ -1,0 +1,981 @@
+item	type
+.net	tag
+.net-framework-version	tag
+2048	tag
+access-modifiers	tag
+actionscript	tag
+aix	tag
+ajax	tag
+algorithm	tag
+alias	tag
+alignment	tag
+amend	tag
+android	tag
+android-activity	tag
+android-context	tag
+android-edittext	tag
+android-emulator	tag
+android-input-method	tag
+android-layout	tag
+android-networking	tag
+android-scripting	tag
+android-softkeyboard	tag
+angularjs	tag
+angularjs-factory	tag
+angularjs-provider	tag
+angularjs-service	tag
+annotations	tag
+ansi-colors	tag
+apache-flex	tag
+append	tag
+application-state	tag
+argument-unpacking	tag
+arguments	tag
+arraylist	tag
+arrays	tag
+article	tag
+artificial-intelligence	tag
+ase	tag
+asp.net	tag
+assembly	tag
+assert	tag
+assignment-operator	tag
+asynchronous	tag
+attr	tag
+authentication	tag
+autocomplete	tag
+automatic-properties	tag
+background-color	tag
+bash	tag
+big-o	tag
+bit-manipulation	tag
+bitwise-operators	tag
+bower	tag
+branch	tag
+branch-prediction	tag
+branching-and-merging	tag
+browser	tag
+build-automation	tag
+build-process	tag
+c	tag
+c#	tag
+c++	tag
+c++-faq	tag
+c++11	tag
+c-preprocessor	tag
+caching	tag
+capitalize	tag
+case-insensitive	tag
+casting	tag
+centering	tag
+certificate	tag
+changeset	tag
+char	tag
+character-encoding	tag
+checkbox	tag
+checked	tag
+cherry-pick	tag
+chmod	tag
+chunks	tag
+class	tag
+class-variables	tag
+click	tag
+clipboard	tag
+clone	tag
+closures	tag
+cocoa-touch	tag
+code-formatting	tag
+code-organization	tag
+coldfusion	tag
+collections	tag
+command	tag
+command-line	tag
+command-line-arguments	tag
+command-line-interface	tag
+comments	tag
+commit	tag
+commit-message	tag
+compare	tag
+comparison	tag
+compiler-optimization	tag
+compiler-version	tag
+complexity-theory	tag
+computer-science	tag
+concat	tag
+concatenation	tag
+conditional-operator	tag
+conditional-statements	tag
+constructor	tag
+containers	tag
+contains	tag
+content-type	tag
+conventions	tag
+copy	tag
+copy-and-swap	tag
+copy-constructor	tag
+copy-paste	tag
+coroutine	tag
+cors	tag
+cross-browser	tag
+css	tag
+css-selectors	tag
+css-transitions	tag
+csv	tag
+curl	tag
+data-binding	tag
+data-structures	tag
+database	tag
+database-indexes	tag
+dataframe	tag
+date	tag
+date-formatting	tag
+datetime	tag
+datetimeoffset	tag
+decimal	tag
+decimal-point	tag
+decorator	tag
+default-parameters	tag
+definition	tag
+delay	tag
+delete-file	tag
+dependencies	tag
+dependency-injection	tag
+design-patterns	tag
+dictionary	tag
+diff	tag
+dimension	tag
+directory	tag
+disabled-input	tag
+docker	tag
+dockerfile	tag
+dom	tag
+dom-events	tag
+double	tag
+drop-down-menu	tag
+dst	tag
+duplicates	tag
+dvcs	tag
+dynamic	tag
+dynamic-languages	tag
+dynamic-memory-allocation	tag
+each	tag
+easy-install	tag
+echo	tag
+eclipse	tag
+ecmascript-6	tag
+editor	tag
+emacs	tag
+email	tag
+email-validation	tag
+encode	tag
+enumeration	tag
+enums	tag
+environment-variables	tag
+equality	tag
+equality-operator	tag
+error-handling	tag
+escaping	tag
+event-handling	tag
+event-propagation	tag
+excel	tag
+exception	tag
+exception-handling	tag
+executable-jar	tag
+explicit	tag
+explicit-constructor	tag
+export	tag
+extend	tag
+fast-math	tag
+feature-branch	tag
+file	tag
+file-copying	tag
+file-exists	tag
+file-io	tag
+filenames	tag
+filesystems	tag
+find	tag
+flash	tag
+flash-cs4	tag
+flask-restless	tag
+flatten	tag
+floating-accuracy	tag
+floating-point	tag
+focus	tag
+for-loop	tag
+foreach	tag
+format	tag
+forms	tag
+friendly-url	tag
+full-text-search	tag
+function	tag
+gcc	tag
+generator	tag
+genymotion	tag
+getopts	tag
+getter	tag
+git	tag
+git-add	tag
+git-archive	tag
+git-branch	tag
+git-checkout	tag
+git-cherry-pick	tag
+git-clone	tag
+git-commit	tag
+git-diff	tag
+git-fetch	tag
+git-filter-branch	tag
+git-fork	tag
+git-log	tag
+git-merge	tag
+git-merge-conflict	tag
+git-pull	tag
+git-push	tag
+git-rebase	tag
+git-remote	tag
+git-reset	tag
+git-revert	tag
+git-rewrite-history	tag
+git-rm	tag
+git-show	tag
+git-squash	tag
+git-stage	tag
+git-stash	tag
+git-submodules	tag
+git-tag	tag
+github	tag
+github-flavored-markdown	tag
+gitignore	tag
+global-variables	tag
+glossary	tag
+graph	tag
+grep	tag
+group-concat	tag
+gruntjs	tag
+guid	tag
+gulp	tag
+hashmap	tag
+hashtable	tag
+header-files	tag
+heap	tag
+height	tag
+heredoc	tag
+highlight	tag
+homebrew	tag
+href	tag
+html	tag
+html-input	tag
+html-parsing	tag
+html-table	tag
+http	tag
+http-get	tag
+http-headers	tag
+http-response-codes	tag
+http-status-code-401	tag
+http-status-code-403	tag
+http-status-codes	tag
+httprequest	tag
+httpurlconnection	tag
+id	tag
+identity-operator	tag
+idioms	tag
+ignore	tag
+image	tag
+implements	tag
+import	tag
+include	tag
+indentation	tag
+indexing	tag
+inheritance	tag
+initialization	tag
+inner-join	tag
+inputstream	tag
+installation	tag
+int	tag
+integer	tag
+io	tag
+ios	tag
+is-empty	tag
+iterable	tag
+iteration	tag
+iterator	tag
+java	tag
+java-threads	tag
+javascript	tag
+javascript-objects	tag
+join	tag
+jquery	tag
+jquery-selectors	tag
+jslint	tag
+json	tag
+jsonp	tag
+junit	tag
+junit4	tag
+jython	tag
+ksh	tag
+language-agnostic	tag
+language-design	tag
+language-lawyer	tag
+layout	tag
+least-astonishment	tag
+let	tag
+letter	tag
+linked-list	tag
+linux	tag
+list	tag
+listview	tag
+local-storage	tag
+logging	tag
+logic	tag
+lookup	tag
+loops	tag
+lowercase	tag
+magic-methods	tag
+main	tag
+malloc	tag
+margin	tag
+markdown	tag
+matching	tag
+math	tag
+matplotlib	tag
+maven-2	tag
+memory	tag
+memory-leaks	tag
+memory-management	tag
+memory-model	tag
+merge	tag
+merge-conflict-resolution	tag
+metaclass	tag
+methods	tag
+mkdir	tag
+model-view-controller	tag
+module	tag
+ms-word	tag
+multidimensional-array	tag
+multiline	tag
+multithreading	tag
+mvp	tag
+mysql	tag
+namespaces	tag
+networking	tag
+networkonmainthread	tag
+newline	tag
+node.js	tag
+npm	tag
+null	tag
+nullpointerexception	tag
+numbers	tag
+object	tag
+object-property	tag
+oop	tag
+opacity	tag
+operating-system	tag
+operator-overloading	tag
+operators	tag
+optimization	tag
+outer-join	tag
+output	tag
+overwrite	tag
+package	tag
+package.json	tag
+padding	tag
+pandas	tag
+parameter-passing	tag
+parameters	tag
+parsing	tag
+pass-by-reference	tag
+pass-by-value	tag
+passwords	tag
+path	tag
+path-variables	tag
+performance	tag
+permissions	tag
+php	tag
+php-internals	tag
+pip	tag
+placeholder	tag
+plot	tag
+plugins	tag
+pointers	tag
+port	tag
+posix	tag
+post	tag
+powershell	tag
+pre-commit	tag
+pretty-print	tag
+printf	tag
+printing	tag
+private	tag
+prop	tag
+protected	tag
+prototype-oriented	tag
+public	tag
+pull-request	tag
+push	tag
+put	tag
+python	tag
+python-2.7	tag
+python-3.x	tag
+python-datamodel	tag
+python-decorators	tag
+python-internals	tag
+python-module	tag
+python-packaging	tag
+qemu	tag
+query-string	tag
+r	tag
+r-faq	tag
+radio-button	tag
+random	tag
+range	tag
+readlines	tag
+readme	tag
+rebase	tag
+redirect	tag
+reference	tag
+reflection	tag
+refresh	tag
+regex	tag
+regex-negation	tag
+reload	tag
+remote-branch	tag
+remote-server	tag
+replace	tag
+repository	tag
+repr	tag
+rest	tag
+return	tag
+revert	tag
+rfc3986	tag
+rounding	tag
+rows	tag
+ruby	tag
+rule-of-three	tag
+runnable	tag
+same-origin-policy	tag
+sass	tag
+scope	tag
+scp	tag
+scripting	tag
+scroll	tag
+search	tag
+security	tag
+select	tag
+selected	tag
+semantic-versioning	tag
+serialization	tag
+serialversionuid	tag
+setter	tag
+sh	tag
+shell	tag
+singleton	tag
+sleep	tag
+slice	tag
+soap	tag
+soft-keyboard	tag
+sorting	tag
+split	tag
+spring	tag
+spring-mvc	tag
+sql	tag
+sql-injection	tag
+sql-server	tag
+sql-server-2000	tag
+sql-server-2005	tag
+sqldatatypes	tag
+sqlite	tag
+squash	tag
+ssh	tag
+stack	tag
+standards-compliance	tag
+static	tag
+std	tag
+stream	tag
+string	tag
+string-concatenation	tag
+string-matching	tag
+string-parsing	tag
+string.format	tag
+stylecop	tag
+subprocess	tag
+substring	tag
+super	tag
+svn-export	tag
+switch-statement	tag
+symbols	tag
+symlink	tag
+syntax	tag
+system.out	tag
+tdd	tag
+terminal	tag
+terminology	tag
+ternary-operator	tag
+text	tag
+text-alignment	tag
+textselection	tag
+textview	tag
+tfs	tag
+tfs-workitem	tag
+time	tag
+time-complexity	tag
+timedelay	tag
+timestamp	tag
+timezone	tag
+trigraphs	tag
+trim	tag
+try-catch-finally	tag
+tsql	tag
+type-conversion	tag
+types	tag
+uikit	tag
+uilabel	tag
+undefined	tag
+undo	tag
+uniqueidentifier	tag
+unit-testing	tag
+units-of-measurement	tag
+universal-image-loader	tag
+unix	tag
+unix-timestamp	tag
+unset	tag
+uppercase	tag
+uri	tag
+url	tag
+url-rewriting	tag
+urlconnection	tag
+urlencode	tag
+urn	tag
+use-strict	tag
+user-interface	tag
+usermanager	tag
+using-directives	tag
+utc	tag
+uuid	tag
+vagrant	tag
+validation	tag
+var	tag
+variable-assignment	tag
+variables	tag
+variadic-functions	tag
+vectorization	tag
+version-control	tag
+versioning	tag
+vertical-alignment	tag
+vi	tag
+vim	tag
+virtual-machine	tag
+virtualization	tag
+visibility	tag
+visual-studio	tag
+visualization	tag
+web-applications	tag
+webpack	tag
+width	tag
+windows	tag
+wsdl	tag
+xml	tag
+xml-parsing	tag
+xmlhttprequest	tag
+yield	tag
+youtube	tag
+youtube-api	tag
+youtube-data-api	tag
+Why is processing a sorted array faster than processing an unsorted array?	question
+How do I undo the most recent local commits in Git?	question
+How do I delete a Git branch locally and remotely?	question
+What is the difference between &#39;git pull&#39; and &#39;git fetch&#39;?	question
+What does the &quot;yield&quot; keyword do?	question
+What is the correct JSON content type?	question
+How do I undo &#39;git add&#39; before commit?	question
+What is the &quot;--&gt;&quot; operator in C++?	question
+How do I rename a local Git branch?	question
+How can I remove a specific item from an array?	question
+What and where are the stack and heap?	question
+How do I check if an element is hidden in jQuery?	question
+Can comments be used in JSON?	question
+How do I redirect to another webpage?	question
+How to modify existing, unpushed commit messages?	question
+How do JavaScript closures work?	question
+How do I revert a Git repository to a previous commit?	question
+What does &quot;use strict&quot; do in JavaScript, and what is the reasoning behind it?	question
+Why does HTML think “chucknorris” is a color?	question
+How to check whether a string contains a substring in JavaScript?	question
+How do I force &quot;git pull&quot; to overwrite local files?	question
+How to remove local (untracked) files from the current Git working tree	question
+var functionName = function() {} vs function functionName() {}	question
+Why is subtracting these two times (in 1927) giving a strange result?	question
+How do I check out a remote Git branch?	question
+Is Java &quot;pass-by-reference&quot; or &quot;pass-by-value&quot;?	question
+What is the difference between String and string in C#?	question
+How do I remove a property from a JavaScript object?	question
+What does if __name__ == &quot;__main__&quot;: do?	question
+Does Python have a ternary conditional operator?	question
+What is the difference between &quot;px&quot;, &quot;dip&quot;, &quot;dp&quot; and &quot;sp&quot;?	question
+What are metaclasses in Python?	question
+How do I check whether a file exists without exceptions?	question
+Which equals operator (== vs ===) should be used in JavaScript comparisons?	question
+How do I return the response from an asynchronous call?	question
+How to make Git &quot;forget&quot; about a file that was tracked but is now in .gitignore?	question
+PUT vs. POST in REST	question
+The definitive guide to form-based website authentication	question
+How do I find all files containing specific text on Linux?	question
+How to disable text selection highlighting	question
+How do I include a JavaScript file in another JavaScript file?	question
+What is the most efficient way to deep clone an object in JavaScript?	question
+Move the most recent commit(s) to a new branch with Git	question
+How to get the source directory of a Bash script from within the script itself?	question
+Calling an external command from Python	question
+What is a plain English explanation of &quot;Big O&quot; notation?	question
+How do I merge two dictionaries in a single expression in Python (taking union of dictionaries)?	question
+How do I discard unstaged changes in Git?	question
+What is the maximum length of a URL in different browsers?	question
+How to resolve merge conflicts in Git?	question
+For-each over an array in JavaScript	question
+What is the difference between &quot;INNER JOIN&quot; and &quot;OUTER JOIN&quot;?	question
+How to pass &quot;Null&quot; (a real surname!) to a SOAP web service in ActionScript 3	question
+What&#39;s the difference between using &quot;let&quot; and &quot;var&quot;?	question
+How do I check whether a checkbox is checked in jQuery?	question
+How can I reset or revert a file to a specific revision?	question
+Reference — What does this symbol mean in PHP?	question
+&quot;Thinking in AngularJS&quot; if I have a jQuery background?	question
+How to validate an email address in JavaScript	question
+How to replace all occurrences of a string?	question
+What is the difference between a URI, a URL and a URN?	question
+How do I push a new local branch to a remote Git repository and track it too?	question
+Regular expression to match a line that doesn&#39;t contain a word	question
+How to horizontally center a &lt;div&gt;?	question
+How can I add an empty directory to a Git repository?	question
+How can I safely create a nested directory?	question
+How to create GUID / UUID?	question
+The Definitive C++ Book Guide and List	question
+How can I determine the URL that a local Git repository was originally cloned from?	question
+How to clone all remote branches in Git?	question
+Setting &quot;checked&quot; for a checkbox with jQuery	question
+How do I read / convert an InputStream into a String in Java?	question
+Which &quot;href&quot; value should I use for JavaScript links, &quot;#&quot; or &quot;javascript:void(0)&quot;?	question
+Why does Google prepend while(1); to their JSON responses?	question
+How do you get a timestamp in JavaScript?	question
+How do I check if an array includes a value in JavaScript?	question
+How to avoid null checking in Java?	question
+Undo a Git merge that hasn&#39;t been pushed yet	question
+Change an HTML5 input&#39;s placeholder color with CSS	question
+What exactly is RESTful programming?	question
+How to change the URI (URL) for a remote Git repository?	question
+Reset local repository branch to be just like remote repository HEAD	question
+How can I pair socks from a pile efficiently?	question
+How do I exit the Vim editor?	question
+How do you close/hide the Android soft keyboard using Java?	question
+How do I make the first letter of a string uppercase in JavaScript?	question
+How to enumerate an enum	question
+What are the differences between a HashMap and a Hashtable in Java?	question
+How can I check if a directory exists in a Bash shell script?	question
+How is Docker different from a virtual machine?	question
+How do I UPDATE from a SELECT in SQL Server?	question
+How do I update a GitHub forked repository?	question
+Squash my last X commits together using Git	question
+Accessing the index in &#39;for&#39; loops?	question
+Proper use cases for Android UserManager.isUserAGoat()?	question
+Why don&#39;t Java&#39;s +=, -=, *=, /= compound assignment operators require casting?	question
+Difference between staticmethod and classmethod	question
+Create ArrayList from array	question
+Does Python have a string &#39;contains&#39; substring method?	question
+How do I remove a submodule?	question
+Make an existing Git branch track a remote branch?	question
+How do I generate random integers within a specific range in Java?	question
+How to delete a remote tag?	question
+How to make a flat list out of list of lists?	question
+What&#39;s the difference between tilde(~) and caret(^) in package.json?	question
+How do I list all files of a directory?	question
+grep a file, but show several surrounding lines?	question
+Why is char[] preferred over String for passwords?	question
+How do I sort a dictionary by value?	question
+Why is the Android emulator so slow? How can we speed up the Android emulator?	question
+Understanding slice notation	question
+How do I copy to the clipboard in JavaScript?	question
+Iterate through a HashMap	question
+How to validate an email address using a regular expression?	question
+How do I efficiently iterate over each entry in a Java Map?	question
+Set cellpadding and cellspacing in CSS?	question
+AngularJS: Service vs provider vs factory	question
+How do I tell if a regular file does not exist in Bash?	question
+What are the differences between a pointer variable and a reference variable in C++?	question
+Delete commits from a branch in Git	question
+Finding the index of an item in a list	question
+How to create a memory leak in Java?	question
+How can I cast int to enum?	question
+How do I check if a list is empty?	question
+Undoing a git rebase	question
+Is there a CSS parent selector?	question
+Iterating over dictionaries using &#39;for&#39; loops	question
+What is the difference between public, protected, package-private and private in Java?	question
+Loop through an array in JavaScript	question
+How do I test for an empty JavaScript object?	question
+Move existing, uncommitted work to a new branch in Git	question
+Using global variables in a function	question
+What is the !! (not not) operator in JavaScript?	question
+How do you create a remote Git branch?	question
+When to use LinkedList over ArrayList in Java?	question
+View the change history of a file using Git versioning	question
+How do I correctly clone a JavaScript object?	question
+What is the difference between call and apply?	question
+How do I clone a specific Git branch?	question
+What is the difference between Python&#39;s list methods append and extend?	question
+Stash only one file out of multiple files that have changed with Git?	question
+What is dependency injection?	question
+How can I pretty-print JSON in a shell script?	question
+Remove a file from a Git repository without deleting it from the local filesystem	question
+How do I convert a String to an int in Java?	question
+Is floating point math broken?	question
+Get the current URL with JavaScript?	question
+Checking if a key exists in a JavaScript object?	question
+What is a serialVersionUID and why should I use it?	question
+How to insert an item into an array at a specific index (JavaScript)?	question
+Improve INSERT-per-second performance of SQLite	question
+How do I iterate over the words of a string?	question
+event.preventDefault() vs. return false	question
+What does the explicit keyword mean?	question
+How to get the current time in Python	question
+Case insensitive &#39;Contains(string)&#39;	question
+Difference between &quot;git add -A&quot; and &quot;git add .&quot;	question
+How do I loop through or enumerate a JavaScript object?	question
+How can I upload files asynchronously?	question
+How can I check for an empty/undefined/null string in JavaScript?	question
+How do I POST JSON data with cURL?	question
+How to stop EditText from gaining focus at Activity startup in Android	question
+How to append something to an array?	question
+Detecting an undefined object property	question
+403 Forbidden vs 401 Unauthorized HTTP responses	question
+JavaScript closure inside loops – simple practical example	question
+Find and restore a deleted file in a Git repository	question
+How to list all the files in a commit?	question
+Is it possible to apply CSS to half of a character?	question
+How to concatenate string variables in Bash	question
+Round to at most 2 decimal places (only if necessary)	question
+Sort array of objects by string property value	question
+How do you disable browser Autocomplete on web form field / input tag?	question
+Catch multiple exceptions in one line (except block)	question
+How can I change an element&#39;s class with JavaScript?	question
+Commit only part of a file in Git	question
+How to check if an object is an array?	question
+Add a column with a default value to an existing table in SQL Server	question
+Initialization of an ArrayList in one line	question
+Is there an &quot;exists&quot; function for jQuery?	question
+Is there a unique Android device ID?	question
+Difference between __str__ and __repr__?	question
+How can I make a time delay in Python?	question
+How to make a chain of function decorators?	question
+How can I prevent SQL injection in PHP?	question
+Message &#39;src refspec master does not match any&#39; when pushing commits in Git	question
+How do I test a private function or a class that has private methods, fields or inner classes?	question
+Why is printing &quot;B&quot; dramatically slower than printing &quot;#&quot;?	question
+Flash CS4 refuses to let go	question
+How do I copy a folder from remote to local using scp?	question
+How can I know which radio button is selected via jQuery?	question
+Should I use the datetime or timestamp data type in MySQL?	question
+How can I get query string values in JavaScript?	question
+How can I add new keys to a dictionary?	question
+Why is &quot;using namespace std;&quot; considered bad practice?	question
+How do I disable the resizable property of a textarea?	question
+How to get the current branch name in Git?	question
+Check if a given key already exists in a dictionary	question
+How do I pass a variable by reference?	question
+What is the best way to iterate over a dictionary?	question
+Creating multiline strings in JavaScript	question
+How do I check if a string contains a specific word?	question
+Determine installed PowerShell version	question
+How to check if a string contains a substring in Bash	question
+How to save an activity state using save instance state?	question
+&quot;Least Astonishment&quot; and the Mutable Default Argument	question
+How can I convert a string to boolean in JavaScript?	question
+List changes unexpectedly after assignment. How do I clone or copy it to prevent this?	question
+How do you set, clear, and toggle a single bit?	question
+How do I concatenate two lists in Python?	question
+How do I make Git use the editor of my choice for commits?	question
+I ran into a merge conflict. How can I abort the merge?	question
+Understanding Python super() with __init__() methods	question
+How do I copy a file in Python?	question
+How can I merge properties of two JavaScript objects dynamically?	question
+What are the correct version numbers for C#?	question
+Deleting an element from an array in PHP	question
+How to install pip on Windows?	question
+Storing Objects in HTML5 localStorage	question
+Why doesn’t Postman get a &quot;No &#39;Access-Control-Allow-Origin&#39; header is present on the requested resource&quot; error when my JavaScript code does?	question
+When should static_cast, dynamic_cast, const_cast and reinterpret_cast be used?	question
+I need an unordered list without any bullets	question
+Ignore files that have already been committed to a Git repository	question
+Why shouldn&#39;t I use mysql_* functions in PHP?	question
+How do I detect a click outside an element?	question
+Can (a== 1 &amp;&amp; a ==2 &amp;&amp; a==3) ever evaluate to true?	question
+Encode URL in JavaScript?	question
+pretty-print JSON using JavaScript	question
+How can I refresh a page with jQuery?	question
+How to make a great R reproducible example	question
+How can I check for &quot;undefined&quot; in JavaScript?	question
+How do I pass command line arguments to a Node.js program?	question
+Echo newline in Bash prints literal \n	question
+How does database indexing work?	question
+Add table row in jQuery	question
+Do I cast the result of malloc?	question
+How do I modify the URL without reloading the page?	question
+How can I create an executable JAR with dependencies using Maven?	question
+How do I get a YouTube video thumbnail from the YouTube API?	question
+How to fix &#39;android.os.NetworkOnMainThreadException&#39;?	question
+Length of a JavaScript object	question
+How to change the author and committer name and e-mail of multiple commits in Git?	question
+What does ** (double star/asterisk) and * (star/asterisk) do for parameters?	question
+Convert bytes to a string	question
+What is __init__.py for?	question
+What does cherry-picking a commit with Git mean?	question
+Does a finally block always get executed in Java?	question
+What is the JavaScript version of sleep()?	question
+Validate decimal numbers in JavaScript - IsNumeric()	question
+Set a default parameter value for a JavaScript function	question
+What is the difference between #include &lt;filename&gt; and #include &quot;filename&quot;?	question
+Is there an equivalent of &#39;which&#39; on the Windows command line?	question
+When to use margin vs padding in CSS	question
+Do a &quot;git export&quot; (like &quot;svn export&quot;)?	question
+jQuery scroll to element	question
+How do I get the current date in JavaScript?	question
+Comparing two branches in Git?	question
+How do I make Git ignore file mode (chmod) changes?	question
+How can you find out which process is listening on a port on Windows?	question
+In the shell, what does &quot; 2&gt;&amp;1 &quot; mean?	question
+How do you split a list into evenly sized chunks?	question
+Manually raising (throwing) an exception in Python	question
+How do I vertically center text with CSS?	question
+.prop() vs .attr()	question
+Get selected text from a drop-down list (select box) using jQuery	question
+Is there a standard function to check for null, undefined, or blank variables in JavaScript?	question
+How to format a JavaScript date	question
+Disable/enable an input with jQuery?	question
+How do I determine whether an array contains a particular value in Java?	question
+Git fetch remote branch	question
+How do I give text or an image a transparent background using CSS?	question
+How do you clone a Git repository into a specific folder?	question
+How do I call one constructor from another in Java?	question
+How do I parse a string to a float or int?	question
+How to modify a specified commit?	question
+How do you push a tag to a remote repository using Git?	question
+How can I check if a program exists from a Bash script?	question
+Deep cloning objects	question
+Find current directory and file&#39;s directory	question
+Why are elementwise additions much faster in separate loops than in a combined loop?	question
+Find the version of an installed npm package	question
+What is the difference between the &#39;COPY&#39; and &#39;ADD&#39; commands in a Dockerfile?	question
+How to get the children of the $(this) selector?	question
+Homebrew install specific version of formula?	question
+Git refusing to merge unrelated histories on rebase	question
+Converting string into datetime	question
+How do I get a consistent byte representation of strings in C# without manually specifying an encoding?	question
+How to delete a file or folder?	question
+How to print colored text in Python?	question
+How do I empty an array in JavaScript?	question
+How to decide when to use Node.js?	question
+How do I get a substring of a string in Python?	question
+Vertically align text to top within a UILabel	question
+How to access environment variable values?	question
+Indent multiple lines quickly in vi	question
+How can I transition height: 0; to height: auto; using CSS?	question
+Catch multiple exceptions at once?	question
+HTTP GET with request body	question
+What is The Rule of Three?	question
+How to make a div 100% height of the browser window	question
+What does O(log n) mean exactly?	question
+How to change the commit author for one specific commit?	question
+Why is &quot;1000000000000000 in range(1000000000000001)&quot; so fast in Python 3?	question
+How do I show the changes which have been staged?	question
+What are the basic rules and idioms for operator overloading?	question
+Open a URL in a new tab (and not a new window)	question
+What is JSONP, and why was it created?	question
+How can I determine if a variable is &#39;undefined&#39; or &#39;null&#39;?	question
+What is reflection and why is it useful?	question
+What are MVP and MVC and what is the difference?	question
+Extract filename and extension in Bash	question
+&quot;implements Runnable&quot; vs &quot;extends Thread&quot; in Java	question
+How do you parse and process HTML/XML in PHP?	question
+What is the best (and safest) way to merge a Git branch into master?	question
+What&#39;s the difference between @Component, @Repository &amp; @Service annotations in Spring?	question
+How do you change the size of figures drawn with matplotlib?	question
+Why doesn&#39;t GCC optimize a*a*a*a*a*a to (a*a*a)*(a*a*a)?	question
+Getting the last element of a list	question
+ssh &quot;permissions are too open&quot; error	question
+Showing which files have changed between two revisions	question
+What is the --save option for npm install?	question
+How can I make a div not larger than its contents?	question
+What is the preferred syntax for defining enums in JavaScript?	question
+Difference between decimal, float and double in .NET?	question
+How do I split a string on a delimiter in Bash?	question
+How to write a switch statement in Ruby	question
+How to upgrade all Python packages with pip?	question
+How to iterate over rows in a DataFrame in Pandas	question
+How do I lowercase a string in Python?	question
+Is there a way to run Python on Android?	question
+How do I import an SQL file using the command line in MySQL?	question
+Should I use Vagrant or Docker for creating an isolated environment?	question
+How do I declare and initialize an array in Java?	question
+Should &#39;using&#39; directives be inside or outside the namespace?	question
+What&#39;s the difference between dependencies, devDependencies and peerDependencies in npm package.json file?	question
+How can I select an element with multiple classes in jQuery?	question
+HTML 5: Is it &lt;br&gt;, &lt;br/&gt;, or &lt;br /&gt;?	question
+How to select rows from a DataFrame based on column values?	question
+Iterate through object properties	question
+Daylight saving time and time zone best practices	question
+How do I center text horizontally and vertically in a TextView?	question
+How does JavaScript .prototype work?	question
+How do I update each dependency in package.json to the latest version?	question
+$(document).ready equivalent without jQuery	question
+How to &quot;git clone&quot; including submodules?	question
+How does PHP &#39;foreach&#39; actually work?	question
+Get the size of the screen, current web page and browser window	question
+How do you display code snippets in MS Word preserving format and syntax highlighting?	question
+How to mkdir only if a directory does not already exist	question
+What are valid values for the id attribute in HTML?	question
+What is the scope of variables in JavaScript?	question
+What is the copy-and-swap idiom?	question
+How do you assert that a certain exception is thrown in JUnit 4 tests?	question
+How to read a file line-by-line into a list?	question
+JavaScript chop/slice/trim off last character in string	question
+When to use self over $this?	question
+How do I format a Microsoft JSON date?	question
+How to get an enum value from a string value in Java?	question
+Compare two dates with JavaScript	question
+What does the ??!??! operator do in C?	question
+How to list only the file names that changed between two commits?	question
+What is &#39;Context&#39; on Android?	question
+JavaScript equivalent to printf/String.Format	question
+What is so bad about singletons?	question
+Vertically align text next to an image?	question
+How to replace a character by a newline in Vim	question
+When should I use double or single quotes in JavaScript?	question
+Generating random whole numbers in JavaScript in a specific range?	question
+Make the cursor a hand when a user hovers over a list item	question
+How to retrieve the hash for the current commit in Git?	question
+How can I delete a file from a Git repository?	question
+What&#39;s the simplest way to print a Java array?	question
+Are static class variables possible in Python?	question
+How can I delete all Git branches which have been merged?	question
+What are the differences between .gitignore and .gitkeep?	question
+Finding duplicate values in a SQL table	question
+Make a div fill the height of the remaining screen space	question
+How does data binding work in AngularJS?	question
+How to use java.net.URLConnection to fire and handle HTTP requests?	question
+How can I symlink a file in Linux?	question
+How do I parse command line arguments in Bash?	question
+How do I generate a random int number?	question
+How do I get the number of elements in a list?	question
+Download a specific tag with Git	question
+How do I revert all local changes in Git managed project to previous state?	question
+How to create an HTML button that acts like a link?	question
+How can I recursively find all files in current and subfolders based on wildcard matching?	question
+How to lazy load images in ListView in Android	question
+Add images to README.md on GitHub	question
+How to concatenate text from multiple rows into a single text string in SQL server?	question
+What&#39;s the difference between SCSS and Sass?	question
+How do I sort a list of dictionaries by a value of the dictionary?	question
+Vim clear last search highlighting	question
+What is the optimal algorithm for the game 2048?	question
+What is the best way to give a C# auto-property an initial value?	question
+C++11 introduced a standardized memory model. What does it mean? And how is it going to affect C++ programming?	question
+How do I create an Excel (.XLS and .XLSX) file in C# without installing Microsoft Office?	question
+&quot;Debug certificate expired&quot; error in Eclipse Android plugins	question
+NPM vs. Bower vs. Browserify vs. Gulp vs. Grunt vs. Webpack	question
+How to exit in Node.js	question

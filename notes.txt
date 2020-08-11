@@ -1,0 +1,56 @@
+<ideas>
+#verify embs using by classifying what site a ques or tag is from
+#use my personal bookmark as input
+#enforce tag relationships
+	#train tag embs
+	#freeze tag embs in items model and train ques embs
+#use only top tags or a certain sub set of tags
+#fine tune large raw item model with new smaller set
+
+<hypothesis>
+#raw item embs only perserve ques relationships
+#tag relationship is random
+
+
+<main app use cases>
+#login
+	#login with stackexchange account
+#retrieve urls
+	#from stack api
+
+
+<pipe_1>
+#get data from api
+	#create data loader for main model
+	#[optional]create data loader for tag model
+	#[optional]train tag model
+	#[optional]extract tag embs
+	#[optional]init main model with tag embs
+	#[optional]freeze tag embs in main model
+	#train main model
+	#extract ques & tag embs from main model
+
+
+<data items>
+#tag
+	#tag_ids
+	#tag_one_hot
+	#{tag_id: tag_name}
+	#tag_name_list
+	#target ques one hot sum
+
+#ques
+	#ques_ids
+	#ques_title
+	#ques_url
+	#tag names
+	#target ques one hot sums
+
+#tag model
+	#tag_ids
+	#ques one hot sums
+
+#main model
+	#ques_ids
+	#tag one hot sums
+
