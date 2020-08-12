@@ -310,7 +310,14 @@ def process_raw():
 ########################################
 #train embs
 
-def load_checkpoint():
+def load_checkpoint(tag_emb):
+	#<issues>
+	#cannot pickle scheduler
+		#test if i can get away with not using scheduler
+		#try to use torch native scheduler & use custom lr lambda
+	#the whole state_dict vs state_dict() situation
+	#simplify code
+
 	pass
 
 def train_tag_embs(model_path=None):
