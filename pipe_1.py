@@ -45,17 +45,17 @@ data_meta_path = 'data/{}_data_meta.pickle'.format(data_name)
 batch_size = 1
 tag_model_batch_size = 1
 main_model_batch_size = 1
-tag_model_epochs = 100
+tag_model_epochs = 5
 main_model_epochs = 5
 seed_val = 142
 lr = 5e-4
 
 #model params
 emb_dim = 30
-tag_model_path = 'models/{}_tag_embs.pt'.format(model_name)
-main_model_path = 'models/{}_main_embs.pt'.format(model_name)
-tag_check_point_path = 'models/{}_tag_check_point'.format(model_name)
-main_check_point_path = 'models/{}_main_check_point'.format(model_name)
+tag_model_path = 'models/{}_tag_checkpoint.pt'.format(model_name)
+main_model_path = 'models/{}_main_checkpoint.pt'.format(model_name)
+#tag_check_point_path = 'models/{}_tag_check_point'.format(model_name)
+#main_check_point_path = 'models/{}_main_check_point'.format(model_name)
 
 #emb params
 tag_emb_path = 'embs/{}_tag_embs.tsv'.format(model_name)
@@ -83,8 +83,9 @@ def main():
 	#data_from_api()
 	#process_raw()
 	#train_tag_embs()
-	#train_item_embs(tag_emb_path=tag_emb_path, model_path=main_model_path, check_point_path=main_check_point_path)
-	train_item_embs(tag_emb_path=tag_emb_path)
+	#train_tag_embs(checkpoint_path=tag_model_path)
+	#train_item_embs(tag_emb_path=tag_emb_path)
+	train_item_embs(tag_emb_path=tag_emb_path, checkpoint_path=main_model_path)
 
 
 ########################################
@@ -310,142 +311,80 @@ def process_raw():
 ########################################
 #train embs
 
-def load_checkpoint(tag_emb):
-	#<issues>
-	#cannot pickle scheduler
-		#test if i can get away with not using scheduler
-		#try to use torch native scheduler & use custom lr lambda
-	#the whole state_dict vs state_dict() situation
-	#simplify code
-
-	pass
-
-def train_tag_embs(model_path=None):
+def train_tag_embs(checkpoint_path=None):
 	#load stuff
 	data_loader = torch.load(tag_data_path)
 	n_tag, n_ques = pickle_load(data_meta_path)
 	tag_names = pickle_load(tag_names_path)
 
-	#train
+	#init model
 	model = skip_gram(n_tag, n_ques, emb_dim)
-	if model_path:
-		print('loaded existing model state')
-		model.load_state_dict(torch.load(model_path))
-	train_embs(model, data_loader, tag_model_epochs, seed_val, tag_model_path)
 
-	#extract embs
+	#train & extract
+	train_embs(model, data_loader, seed_val, tag_model_epochs, checkpoint_path, tag_model_path)
 	extract_embs(tag_model_path, ques_path, tag_names, tag_emb_path, tag_emb_meta_path, True)
 
 
-def train_item_embs(tag_emb_path=None, model_path=None, check_point_path=None):
+def train_item_embs(tag_emb_path=None, checkpoint_path=None):
 	#load stuff
 	data_loader = torch.load(main_data_path)
 	n_tag, n_ques = pickle_load(data_meta_path)
 	tag_names = pickle_load(tag_names_path)
 
-
-	#train & extract embs
+	#init model
 	if tag_emb_path:
-		#init model & tag embs
-		init_tag_embs = read_embs(tag_emb_path)
 		model = skip_gram_split_2(n_tag, n_ques, emb_dim)
-		model.cuda()
-
-		#load model state if exists
-		if model_path:
-			print('loading existing model states')
-			model.load_state_dict(torch.load(model_path))
-		else:
-			print('train new model')
-			sd = model.state_dict()
-			sd['tag_embs.weight'] = init_tag_embs
-			model.state_dict = sd
-
-		#load checkpoint if exists
-		if check_point_path:
-			print('loading train checkpoint')
-			checkpoint = torch.load(check_point_path, pickle_module=dill)
-			#optimizer = optim.Adam(model.parameters(), lr=lr, eps=1e-8)
-			optimizer = optim.Adam(model.parameters())
-			optimizer.load_state_dict(checkpoint['optimizer_state'])
-			#scheduler = checkpoint['scheduler']
-			total_steps = len(data_loader) * main_model_epochs
-			scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
-			last_epoch = checkpoint['epoch']
-		else:
-			print('train new model')
-			optimizer = optim.Adam(model.parameters(), lr=lr, eps=1e-8)
-			total_steps = len(data_loader) * main_model_epochs
-			scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
-			last_epoch = 0
-
-		#train & extract embs
-		train_embs(model, data_loader, main_model_epochs, seed_val, main_model_path, main_check_point_path, optimizer, scheduler, last_epoch)
-		extract_embs(main_model_path, ques_path, tag_names, main_emb_path, main_emb_meta_path, False)
-
+		init_tag_embs = read_embs(tag_emb_path)
+		sd = model.state_dict()
+		sd['tag_embs.weight'] = init_tag_embs
+		#model.state_dict = sd
+		model.load_state_dict(sd)
 	else:
 		model = skip_gram(n_tag+n_ques, n_tag, emb_dim)
-		model.cuda()
 
-		#laod model state if exists
-		if model_path:
-			print('loaded existing model state')
-			model.load_state_dict(torch.load(model_path))
-
-		#load checkpoint if exists
-		if check_point_path:
-			print('loading train checkpoint')
-			checkpoint = torch.load(check_point_path)
-			optimizer = optim.Adam(model.parameters(), lr=lr, eps=1e-8)
-			optimizer.load_state_dict(checkpoint['optimizer_state'])
-			scheduler = checkpoint['scheduler']
-			last_epoch = checkpoint['epoch']
-		else:
-			print('train new model')
-			optimizer = optim.Adam(model.parameters(), lr=lr, eps=1e-8)
-			total_steps = len(data_loader) * main_model_epochs
-			scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps=0, num_training_steps=total_steps)
-			last_epoch = 0
+	#train & extract
+	train_embs(model, data_loader, seed_val, main_model_epochs, checkpoint_path, main_model_path)
+	extract_embs(main_model_path, ques_path, tag_names, main_emb_path, main_emb_meta_path, False)
 
 
-		train_embs(model, data_loader, main_model_epochs, seed_val, main_model_path, main_check_point_path, optimizer, scheduler, last_epoch)
-		extract_embs(main_model_path, ques_path, tag_names, main_emb_path, main_emb_meta_path, False)
+def train_embs(model, data_loader, seed_val, epochs, checkpoint_path, dump_path):
+	t0_overall = time()
 
+	#move model to cuda
+	device = torch.device('cuda')
+	model.cuda()
 
-
-def train_embs(model, data_loader, epochs, seed_val, model_path, checkpoint_path, optimizer, scheduler, last_epoch):
-	t00 = time()
-
-	#prep model & optimizer
-	#device = torch.device('cuda')
-	#model.cuda()
-
-	#optimizer = optim.Adam(model.parameters(), lr=lr, eps=1e-8)
+	#prep optimizer & criterion
+	optimizer = optim.Adam(model.parameters(), lr=lr, eps=1e-8)
 	criterion = nn.BCELoss()
-	#total_steps = len(data_loader) * epochs
-	#scheduler = get_linear_schedule_with_warmup(optimizer, num_warmup_steps = 0, num_training_steps = total_steps)
+
+	#load checkpoint if exists
+	if checkpoint_path:
+		print('training from existing checkpoint')
+		checkpoint = torch.load(checkpoint_path)
+		model.load_state_dict(checkpoint['model_state'])
+		optimizer.load_state_dict(checkpoint['optimizer_state'])
+		last_epoch = checkpoint['epoch']
+	else:
+		print('training from fresh model')
+		last_epoch = 0
 
 	#seed torch
 	np.random.seed(seed_val)
 	torch.manual_seed(seed_val)
 	torch.cuda.manual_seed_all(seed_val)
 
-	#train
+	#train loop
 	train_losses = []
 	for epoch_i in range(last_epoch, last_epoch + epochs):
 		print('\n======== Epoch {:} / {:} ========'.format(epoch_i + 1, last_epoch + epochs))
-		print('Training...')
 
-		train_loss = 0
+		train_loss = 0.0
 		model.train()
-		t0 = time()
+		t0_epoch = time()
 
 		#train epoch pass
 		for step, batch in enumerate(data_loader):
-			if step % 100 == 0 and not step == 0:
-				elapsed = time() - t0
-				#print('  Batch {:>5,}  of  {:>5,}.    Elapsed: {:}.'.format(step, len(data_loader), elapsed))
-
 			b_input_ids = batch[0].to(device)
 			b_labels = batch[1].to(device)
 			model.zero_grad()
@@ -455,25 +394,23 @@ def train_embs(model, data_loader, epochs, seed_val, model_path, checkpoint_path
 			loss.backward()
 			torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0) #research this
 			optimizer.step()
-			scheduler.step()
 
 		avg_train_loss = train_loss / len(data_loader)
 		train_losses.append(avg_train_loss)
-		print('\n  Average training loss: {0:.6f}'.format(avg_train_loss))
-		print('  Training epcoh took: {0:.2f}'.format(time() - t0))
+		print('  Average training loss: {0:.6f}'.format(avg_train_loss))
+		print('  Training epcoh took: {0:.2f}'.format(time() - t0_epoch))
 		print('  Cuda memory usage: {0:.2f}GB'.format(torch.cuda.memory_allocated(0)/1024**3))
 
-	print('train completed; total time: {0:.2f}'.format(time() - t00))
-	
-	#save check point
+	print('\nTrain completed; total time: {0:.2f}'.format(time() - t0_overall))
+
+	#save checkpoint
 	model.eval()
-	torch.save(model.state_dict, model_path)
 	checkpoint = {
-		'epoch':last_epoch + epochs,
-		'optimizer_state':optimizer.state_dict(),
-		'scheduler':scheduler
+		'epoch': last_epoch + epochs,
+		'model_state': model.state_dict(),
+		'optimizer_state':optimizer.state_dict()
 	}
-	torch.save(checkpoint, checkpoint_path, pickle_module=dill)
+	torch.save(checkpoint, dump_path)
 	plot_loss(train_losses)
 
 
@@ -545,9 +482,9 @@ class skip_gram_split_2(nn.Module):
 ########################################
 #extract emb
 
-def extract_embs(model_path, ques_path, tag_list, emb_path, emb_meta_path, tag_only):
+def extract_embs(checkpoint_path, ques_path, tag_list, emb_csv_path, emb_meta_path, tag_only):
 	#load embs
-	state_dict = torch.load(model_path)
+	state_dict = torch.load(checkpoint_path)['model_state']
 	if tag_only:
 		embs = state_dict['embeddings.weight'].detach().cpu().numpy()
 	else:
@@ -561,11 +498,8 @@ def extract_embs(model_path, ques_path, tag_list, emb_path, emb_meta_path, tag_o
 	questions = list(ques_df['title'])
 	ques_tags = list(ques_df['tags'])
 
-	#for item, emb in zip(items, embs):
-		#print(item, emb)
-
 	#write embs
-	with open(emb_path, 'w') as f:
+	with open(emb_csv_path, 'w') as f:
 		for emb in embs:
 			line = '\t'.join([str(x) for x in emb]) + '\n'
 			f.write(line)
